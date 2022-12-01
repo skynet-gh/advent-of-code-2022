@@ -1,8 +1,6 @@
-{:paths ["src"]
+{:paths ["src" "resources" "native-res"]
  :deps
- {com.github.clj-easy/graal-build-time {:mvn/version "0.1.4"}
-  metosin/malli {:mvn/version "0.9.2"}
-  meander/epsilon {:mvn/version "0.0.650"}}
+ {com.github.clj-easy/graal-build-time {:mvn/version "0.1.4"}}
  :aliases
  {:build
   {:deps 

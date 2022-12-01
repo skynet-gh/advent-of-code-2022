@@ -9,7 +9,7 @@
 (def basis (b/create-basis {:project "deps.edn"}))
 (def uber-file (format "target/%s.jar" (name lib)))
 
-(def source-dirs ["src"])
+(def source-dirs ["src" "resources" "native-res"])
 
 (defn clean [_]
   (b/delete {:path "target"}))
