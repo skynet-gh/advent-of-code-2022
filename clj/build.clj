@@ -9,7 +9,7 @@
 (def class-dir "target/classes")
 (def basis (b/create-basis {:project "deps.edn"}))
 
-(def source-dirs ["src" "../inputs" "native-res"])
+(def source-dirs ["src" "../input" "native-res"])
 
 (defn clean [_]
   (b/delete {:path "target"}))

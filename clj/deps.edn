@@ -1,9 +1,9 @@
-{:paths ["src" "../inputs" "native-res"]
+{:paths ["src" "../input" "native-res"]
  :deps
  {com.github.clj-easy/graal-build-time {:mvn/version "0.1.4"}}
  :aliases
  {:build
-  {:deps 
+  {:deps
    {
     io.github.clojure/tools.build {:git/tag "v0.8.5"
                                    :git/sha "9c738dac113977d6e351f5b778195f07a8a97377"}}

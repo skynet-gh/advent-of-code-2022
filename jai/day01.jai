@@ -1,5 +1,5 @@
 main :: () {
-  input := read_entire_file("resources/day01.txt");
+  input := read_entire_file("../input/day01.txt");
 
   sections := split(input, "\n\n");
 
