@@ -1,4 +1,4 @@
-{:paths ["src" "resources" "native-res"]
+{:paths ["src" "../inputs" "native-res"]
  :deps
  {com.github.clj-easy/graal-build-time {:mvn/version "0.1.4"}}
  :aliases
