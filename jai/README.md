@@ -3,11 +3,14 @@
 Build with
 
 ```
-jai -release day01.jai
+bb build
+bb bench
 ```
 
-then run
+Example output:
 
 ```
-time ./day01
+$ bb bench
+day01 "Elapsed time: 1.272462 msecs"
+day02 "Elapsed time: 0.889921 msecs"
 ```
