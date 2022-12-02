@@ -114,6 +114,9 @@
     }, 
     {
       "pattern":"\\Qday01.txt\\E"
+    }, 
+    {
+      "pattern":"\\Qday02.txt\\E"
     }
   ]},
   "bundles":[]
