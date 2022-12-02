@@ -1,4 +1,6 @@
+/.build/
 /.cpcache/
 /target/
 *.build_artifacts.txt
 *.exe
+*.pdb
