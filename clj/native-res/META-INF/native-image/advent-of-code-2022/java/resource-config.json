@@ -2,6 +2,18 @@
   "resources":{
   "includes":[
     {
+      "pattern":"\\Qadvent/day01.clj\\E"
+    }, 
+    {
+      "pattern":"\\Qadvent/day01__init.class\\E"
+    }, 
+    {
+      "pattern":"\\Qadvent/day02.clj\\E"
+    }, 
+    {
+      "pattern":"\\Qadvent/day02__init.class\\E"
+    }, 
+    {
       "pattern":"\\Qadvent/main.clj\\E"
     }, 
     {

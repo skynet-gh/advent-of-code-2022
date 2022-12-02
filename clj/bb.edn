@@ -1,0 +1,25 @@
+{:tasks
+ {build (let [day 2]
+          (shell "clojure" "-T:build" "uber" ":class" "advent.main")
+          (shell "java" "-agentlib:native-image-agent=config-merge-dir=native-res/META-INF/native-image/advent-of-code-2022/java" "-jar" "target/main.jar")
+          (shell "clojure" "-T:build" "uber" ":class" "advent.main")
+          (shell "native-image" "-jar" "target/main.jar" "--no-fallback"
+                 "--report-unsupported-elements-at-runtime")
+          (shell "time" "./main")
+          (doseq [d (range 0 day)]
+            (let [
+                  day-name (format "day%02d" (inc d))
+                  day-class (str "advent." day-name)
+                  jar-path (str "target/" day-name ".jar")]
+              (println day-name)
+              (shell "clojure" "-T:build" "uber" ":class" day-class)
+              (shell "native-image" "-jar" jar-path "--no-fallback"
+                     "--report-unsupported-elements-at-runtime"))))
+  bench (let [day 2]
+          (doseq [d (range 0 day)]
+            (let [day-name (format "day%02d" (inc d))]
+              (print day-name (with-out-str
+                                (time
+                                  (do
+                                    (shell {:out "/dev/null"} (str "./" day-name))
+                                    nil)))))))}}

@@ -4,5 +4,5 @@
 *.build_artifacts.txt
 *.exe
 *.pdb
-/advent-of-code-2022
-/day01
+/day*
+/main

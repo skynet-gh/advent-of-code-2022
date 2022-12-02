@@ -1,16 +1,18 @@
-# Advent of Code 2022
+# Advent of code 2022 in Clojure
 
-Requires [Clojure](https://clojure.org/guides/install_clojure), and [GraalVM](https://github.com/graalvm/graalvm-ce-builds/releases) with `native-image`.
+Requires [Clojure](https://clojure.org/guides/install_clojure), [GraalVM](https://github.com/graalvm/graalvm-ce-builds/releases) with `native-image`, and [Babashka](https://babashka.org/).
 
 ## Build
 
 ```
-clj -T:build uber
-native-image -jar target/advent-of-code-2022.jar --no-fallback --report-unsupported-elements-at-runtime
+bb build
+bb bench
 ```
 
-## Config
+Example output:
 
 ```
-java -agentlib:native-image-agent=config-merge-dir=native-res/META-INF/native-image/advent-of-code-2022/java -jar target/advent-of-code-2022.jar
+$ bb bench
+day01 "Elapsed time: 3.746037 msecs"
+day02 "Elapsed time: 2.840546 msecs"
 ```
