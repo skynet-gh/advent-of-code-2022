@@ -14,6 +14,12 @@
       "pattern":"\\Qadvent/day02__init.class\\E"
     }, 
     {
+      "pattern":"\\Qadvent/day03.clj\\E"
+    }, 
+    {
+      "pattern":"\\Qadvent/day03__init.class\\E"
+    }, 
+    {
       "pattern":"\\Qadvent/main.clj\\E"
     }, 
     {
@@ -92,6 +98,12 @@
       "pattern":"\\Qclojure/main__init.class\\E"
     }, 
     {
+      "pattern":"\\Qclojure/set.clj\\E"
+    }, 
+    {
+      "pattern":"\\Qclojure/set__init.class\\E"
+    }, 
+    {
       "pattern":"\\Qclojure/spec/alpha.clj\\E"
     }, 
     {
@@ -129,6 +141,9 @@
     }, 
     {
       "pattern":"\\Qday02.txt\\E"
+    }, 
+    {
+      "pattern":"\\Qday03.txt\\E"
     }
   ]},
   "bundles":[]

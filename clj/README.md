@@ -15,4 +15,5 @@ Example output:
 $ bb bench
 day01 "Elapsed time: 3.746037 msecs"
 day02 "Elapsed time: 2.840546 msecs"
+day03 "Elapsed time: 6.036192 msecs"
 ```

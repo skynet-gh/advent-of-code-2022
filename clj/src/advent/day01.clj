@@ -16,10 +16,10 @@
        sort
        reverse))
 
-(defn day1-part1 [sorted-elves]
+(defn part1 [sorted-elves]
   (last sorted-elves))
 
-(defn day1-part2 [sorted-elves]
+(defn part2 [sorted-elves]
   (->> sorted-elves
        (take 3)
        (reduce + 0)))
@@ -27,5 +27,5 @@
 (defn -main [& _]
   (let [elves (get-elves)]
     (println "Day 01")
-    (println " Part 1:" (day1-part1 elves))
-    (println " Part 2:" (day1-part2 elves))))
+    (println " Part 1:" (part1 elves))
+    (println " Part 2:" (part2 elves))))
