@@ -11,6 +11,7 @@ Example output:
 
 ```
 $ bb bench
-day01 "Elapsed time: 1.272462 msecs"
+day01 "Elapsed time: 1.256357 msecs"
 day02 "Elapsed time: 0.889921 msecs"
+day03 "Elapsed time: 1.057996 msecs"
 ```

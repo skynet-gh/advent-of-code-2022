@@ -1,10 +1,10 @@
 {:tasks
- {build (let [day 2]
+ {build (let [day 3]
           (doseq [d (range 0 day)]
             (let [
                   source-file (format "day%02d.jai" (inc d))]
               (shell "jai" "-release" source-file))))
-  bench (let [day 2]
+  bench (let [day 3]
           (doseq [d (range 0 day)]
             (let [day-name (format "day%02d" (inc d))]
               (print day-name (with-out-str
