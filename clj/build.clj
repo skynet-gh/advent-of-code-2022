@@ -16,7 +16,7 @@
 
 (defn uber [args]
   (let [main (or (when-let [main-class (:class args)]
-                   (symbol main-class))
+                   (symbol (str main-class)))
                  'advent.main)
         uber-file (str "target/" (last (string/split (name main) #"\.")) ".jar")]
     (clean nil)

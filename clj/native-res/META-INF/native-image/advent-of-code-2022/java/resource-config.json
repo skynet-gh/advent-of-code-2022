@@ -2,6 +2,15 @@
   "resources":{
   "includes":[
     {
+      "pattern":"\\Q2021-day03.txt\\E"
+    }, 
+    {
+      "pattern":"\\Qadvent/2021.clj\\E"
+    }, 
+    {
+      "pattern":"\\Qadvent/2021__init.class\\E"
+    }, 
+    {
       "pattern":"\\Qadvent/day01.clj\\E"
     }, 
     {
