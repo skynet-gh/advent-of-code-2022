@@ -29,6 +29,12 @@
       "pattern":"\\Qadvent/day03__init.class\\E"
     }, 
     {
+      "pattern":"\\Qadvent/day04.clj\\E"
+    }, 
+    {
+      "pattern":"\\Qadvent/day04__init.class\\E"
+    }, 
+    {
       "pattern":"\\Qadvent/main.clj\\E"
     }, 
     {
@@ -153,6 +159,9 @@
     }, 
     {
       "pattern":"\\Qday03.txt\\E"
+    }, 
+    {
+      "pattern":"\\Qday04.txt\\E"
     }
   ]},
   "bundles":[]
