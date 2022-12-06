@@ -9,4 +9,6 @@
                                    :git/sha "9c738dac113977d6e351f5b778195f07a8a97377"}}
    :ns-default build
    :jvm-opts ["-Dclojure.compiler.direct-linking=true"
-              "-Dclojure.spec.skip-macros=true"]}}}
+              "-Dclojure.spec.skip-macros=true"]}
+  :debug
+  {hashp/hashp {:mvn/version "0.2.2"}}}}
